@@ -1,9 +1,8 @@
 var btnTranslate=document.querySelector("#btn-translate");
 var txtIput=document.querySelector("#txt-input");
+var outPut=document.querySelector("#output");
 console.log(txtIput)
 function clickHandker(){
-    console.log("clicked")
-    console.log("input",txtIput.value);
-    
+    outPut.innerText="ajajakaka "+txtIput.value;
 }
 btnTranslate.addEventListener("click",clickHandker);
