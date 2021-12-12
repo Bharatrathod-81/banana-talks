@@ -10,7 +10,8 @@ function errorHandler(error){
     console.log("error occured",error);
     alert("something wrong with server! Try again after some time")
 }
-// var inputText=txtIput.value;
+
+
 function clickHandker(){
     fetch(getTranslationURL(serverURL))
     .then(response => response.json())
