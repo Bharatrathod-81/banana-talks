@@ -13,7 +13,7 @@ function errorHandler(error){
 
 
 function clickHandker(){
-    fetch(getTranslationURL(serverURL))
+    fetch(getTranslationURL(serverURL))<k>
     .then(response => response.json())
     .then(json => {
         var translatedText=json.contents.translated;
